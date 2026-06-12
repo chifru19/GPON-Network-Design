@@ -13,7 +13,12 @@ This repository contains a professional-grade GPON (Gigabit Passive Optical Netw
 ## Author
 **Frank Fru** - Website: [frankfru.com](https://frankfru.com)  
 - GitHub: [chifru19](https://github.com/chifru19)  
-- [Link to LinkedIn Profile]
+- LinkedIn: [linkedin.com/in/frank-fru/](https://www.linkedin.com/in/frank-fru/)
+
+## Network Architecture Overview
+The GPON network is designed using a centralized split architecture to optimize signal distribution in high-density residential areas.
+
+
 
 ---
 *Maintained by Frank Fru - Fiber Optic & Network Design Specialist.*
