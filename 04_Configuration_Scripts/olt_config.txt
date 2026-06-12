@@ -1,0 +1,18 @@
+! GPON Configuration Script for CAMTEL Project
+! Standardized Profile Setup
+
+interface gpon 0/1
+  port 0 ont-auto-find enable
+  quit
+
+ont-lineprofile gpon profile-id 10 profile-name "Residential_Service"
+  tcont 1 dba-profile-id 10
+  gem add 1 eth tcont 1
+  gem mapping 1 1 vlan 100
+  commit
+  quit
+
+ont-srvprofile gpon profile-id 10 profile-name "Standard_ONT"
+  ont-port eth 4 pots 2 wifi 0
+  commit
+  quit

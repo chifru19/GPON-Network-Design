@@ -1,0 +1,5 @@
+Component,Quantity,Loss_per_Unit_dB,Total_Loss_dB
+Fiber_Feeder(5km),5,0.35,1.75
+Splitter_1:64,1,20.5,20.5
+Connectors,4,0.5,2.0
+Splices,10,0.1,1.0
